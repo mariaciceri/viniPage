@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "title": "Collection 1",
+    "description": "This is a brief description of Collection 1.",
+    "imagePaths": [
+        "/images/collection1/aggressive-2.webp",
+        "/images/collection1/indoor-climbing.jpg",
+        "/images/collection1/aggressive-2.webp",
+        "/images/collection1/indoor-climbing.jpg",
+        "/images/collection1/indoor-climbing.jpg",
+        "/images/collection1/indoor-climbing.jpg"
+
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Collection 2",
+    "description": "This is a brief description of Collection 2.",
+    "imagePaths": [
+        "/images/collection1/many-shoes.webp",
+        "/images/collection1/neutral-2.webp"
+    ]
+  }
+]

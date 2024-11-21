@@ -1,0 +1,20 @@
+.paintings {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin: 50px 20px;
+}
+
+.painting {
+  width: 80%;
+  height: auto;
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .paintings {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

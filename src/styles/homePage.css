@@ -1,0 +1,7 @@
+.collection-preview {
+  display: flex;
+  margin: 20px;
+  width: 300px;
+  height: auto;
+  cursor: pointer;
+}
