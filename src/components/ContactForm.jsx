@@ -23,6 +23,7 @@ export default function ContactForm() {
             <input
               type="text"
               className="input-items"
+              name="name"
               placeholder="Name"
               required
             />
@@ -31,6 +32,7 @@ export default function ContactForm() {
             <input
               type="email"
               className="input-items"
+              name="email"
               placeholder="Email"
               required
             />
@@ -38,6 +40,7 @@ export default function ContactForm() {
           <div className="form-items">
             <textarea
               className="input-items text-area"
+              name="message"
               placeholder="
 Optional message"
             ></textarea>

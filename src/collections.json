@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "title": "Collection 1",
-    "description": "This is a brief description of Collection 1.",
+    "title": "Collection Saida",
+    "description": "This collection is called Saida. It is a collection that represents the beauty of scaping reality and entering a world of dreams:",
     "imagePaths": [
-        "/images/collection1/aggressive-2.webp",
-        "/images/collection1/indoor-climbing.jpg",
-        "/images/collection1/aggressive-2.webp",
-        "/images/collection1/indoor-climbing.jpg",
-        "/images/collection1/indoor-climbing.jpg",
-        "/images/collection1/indoor-climbing.jpg"
+        "/images/collection1/vini-saida.jpeg",
+        "/images/collection1/vini-saida2.jpeg",
+        "/images/collection1/vini-saida5.jpeg",
+        "/images/collection1/vini-saida12.jpeg",
+        "/images/collection1/vini-saida18.jpeg",
+        "/images/collection1/vini-saida22.jpeg"
 
     ]
   },
@@ -18,8 +18,8 @@
     "title": "Collection 2",
     "description": "This is a brief description of Collection 2.",
     "imagePaths": [
-        "/images/collection1/many-shoes.webp",
-        "/images/collection1/neutral-2.webp"
+        "/images/collection1/vini-saida27.jpeg",
+        "/images/collection1/vini-saida4.jpeg"
     ]
   }
 ]

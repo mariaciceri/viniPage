@@ -1,9 +1,3 @@
-//hero section
-//intro
-//collection navigation links
-//collection preview
-//footer
-
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "../styles/homePage.css";
@@ -23,7 +17,6 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1>Vini</h1>
       <p>Comtemporary artist from Balneario Camboriu - Brazil.</p>
       <span
         style={{ fontSize: "5em", cursor: "pointer" }}
