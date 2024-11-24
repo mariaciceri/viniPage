@@ -50,13 +50,9 @@ export default function CollectionDisplay() {
   };
 
   return (
-    <div>
-      <h2>{collection.title}</h2>
-      <p>{collection.description}</p>
-      <span
-        style={{ fontSize: "3em", cursor: "pointer" }}
-        onClick={() => navigate("/")}
-      >
+    <div className="collection-display">
+      <h2 className="title">{collection.title}</h2>
+      <span className="back" onClick={() => navigate("/")}>
         &#10550;
       </span>
       <div className="paintings">
@@ -92,15 +88,15 @@ export default function CollectionDisplay() {
       )}
 
       <span
+        className="scroll-to-top"
         onClick={() =>
           window.scrollTo({
             top: 0,
             behavior: "smooth",
           })
         }
-        style={{ fontSize: "5em", cursor: "pointer" }}
       >
-        &#10548;
+        &#10553;
       </span>
     </div>
   );

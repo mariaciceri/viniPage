@@ -1,8 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Collection Saida",
-    "description": "This collection is called Saida. It is a collection that represents the beauty of scaping reality and entering a world of dreams:",
+    "title": "Collection Saída",
     "imagePaths": [
         "/images/collection1/vini-saida.jpeg",
         "/images/collection1/vini-saida2.jpeg",
@@ -16,7 +15,6 @@
   {
     "id": 2,
     "title": "Collection 2",
-    "description": "This is a brief description of Collection 2.",
     "imagePaths": [
         "/images/collection1/vini-saida27.jpeg",
         "/images/collection1/vini-saida4.jpeg"

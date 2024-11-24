@@ -1,10 +1,13 @@
+.collection-display {
+  margin: 40px 20px;
+}
+
 .paintings {
   display: grid;
   grid-template-columns: 100%;
   grid-gap: 20px;
   justify-items: center;
   align-items: center;
-  margin: 50px 20px;
 }
 
 .painting {
@@ -60,8 +63,25 @@
   right: 20px;
 }
 
+.scroll-to-top {
+  font-size: 4em;
+  cursor: pointer;
+  transform: rotate(-180deg);
+  float: right;
+}
+
+.back {
+  font-size: 4em;
+  cursor: pointer;
+  margin: 0 30px;
+}
+
 @media screen and (min-width: 768px) {
   .paintings {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .title {
+    font-size: 60px;
   }
 }
