@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import collections from "../collections.json";
 import "../styles/collectionDisplay.css";
+import "../styles/global.css";
 
 export default function CollectionDisplay() {
   const { id } = useParams();

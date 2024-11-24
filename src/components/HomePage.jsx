@@ -17,26 +17,34 @@ export default function HomePage() {
 
   return (
     <div>
-      <p>Comtemporary artist from Balneario Camboriu - Brazil.</p>
-      <span
-        style={{ fontSize: "5em", cursor: "pointer" }}
-        onClick={scrollToCollections}
-      >
-        &#8595;
+      <h1 className="title">Vini Fernandes</h1>
+      <p className="introduction">
+        Comtemporary artist from Balneario Camboriu - Brazil.
+      </p>
+      <span onClick={scrollToCollections} className="arrow-down">
+        &#8594;
       </span>
-      <h2 id="collections">Collections</h2>
-      <img
-        src="/images/relaxing.jpeg"
-        alt="Relaxing bunny"
-        className="collection-preview"
-        onClick={() => handleImageClick(1)}
-      />
-      <img
-        src="/images/midsommar.jpeg"
-        alt="Midsommar bunny"
-        className="collection-preview"
-        onClick={() => handleImageClick(2)}
-      />
+      <h2 id="collections" className="collections">
+        Collections
+      </h2>
+      <div className="collection-1">
+        <img
+          src="/images/relaxing.jpeg"
+          alt="Relaxing bunny"
+          className="collection-preview"
+          onClick={() => handleImageClick(1)}
+        />
+        <h3>Saida</h3>
+      </div>
+      <div className="collection-2">
+        <img
+          src="/images/midsommar.jpeg"
+          alt="Midsommar bunny"
+          className="collection-preview"
+          onClick={() => handleImageClick(2)}
+        />
+        <h3>Collection 3</h3>
+      </div>
     </div>
   );
 }

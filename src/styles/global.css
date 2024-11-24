@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --title-font: "Playfair Display", serif;
+  --text-font: "Alice", sans-serif;
+  --text-color: #333;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--text-font);
+}
+
+footer {
+  margin-top: auto;
+}
+
+h1,
+h2 {
+  font-family: var(--title-font);
+  color: var(--text-color);
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content fills available space */
+.content {
+  flex: 1; /* Takes up the space between NavBar and Footer */
+}
+
+.text-body-secondary {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 3.5em; /* Ensure spacing between paragraphs */
+}
+
+.text-body-secondary p {
+  display: inline-block;
+  margin: 0; /* Remove default margins */
+}
+
+.created {
+  position: absolute;
+  bottom: 0; /* Align to the bottom of the footer */
+  right: 0; /* Align to the right corner */
+  transform: translate(0, 0); /* Adjust positioning slightly inside */
+  white-space: nowrap; /* Prevent text from wrapping */
+}

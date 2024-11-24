@@ -1,6 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/footer.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../styles/global.css";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -11,11 +13,15 @@ export default function Footer() {
 
   return (
     <>
-      <footer>
-        <p>Instagram</p>
-        <p onClick={handleContactClick}>Contact Me</p>
-        <p>&copy; 2024 Vini</p>
-        <p>Created By Maria Ciceri</p>
+      <footer className="footer mt-auto py-3 bg-body-tertiary">
+        <div className="container">
+          <span className="text-body-secondary">
+            <p>Instagram</p>
+            <p onClick={handleContactClick}>Contact Me</p>
+            <p>2024 Vini</p>
+            <p className="created">&copy;By Maria Ciceri</p>
+          </span>
+        </div>
       </footer>
     </>
   );
