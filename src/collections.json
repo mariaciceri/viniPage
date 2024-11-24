@@ -3,12 +3,15 @@
     "id": 1,
     "title": "Collection Saída",
     "imagePaths": [
-        "/images/collection1/vini-saida.jpeg",
-        "/images/collection1/vini-saida2.jpeg",
-        "/images/collection1/vini-saida5.jpeg",
-        "/images/collection1/vini-saida12.jpeg",
-        "/images/collection1/vini-saida18.jpeg",
-        "/images/collection1/vini-saida22.jpeg"
+        "/images/collection1/vini-saida1.jpeg",
+        "/images/collection1/vini-saida3.jpeg",
+        "/images/collection1/vini-saida7.jpeg",
+        "/images/collection1/vini-saida10.jpeg",
+        "/images/collection1/vini-saida13.jpeg",
+        "/images/collection1/vini-saida15.jpeg",
+        "/images/collection1/vini-saida20.jpeg",
+        "/images/collection1/vini-saida23.jpeg",
+        "/images/collection1/vini-saida27.jpeg"
 
     ]
   },

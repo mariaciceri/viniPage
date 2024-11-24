@@ -12,7 +12,11 @@ export default function ContactForm() {
 
       <div className="form">
         <div>
-          <img src="/images/cleaning.jpeg" alt="" className="image" />
+          <img
+            src="/images/collection1/vini-saida18.jpeg"
+            alt="Painting signature"
+            className="image"
+          />
         </div>
 
         <form name="contact" method="POST" data-netlify="true">
