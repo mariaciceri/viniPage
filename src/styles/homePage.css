@@ -1,3 +1,8 @@
+h3 {
+  cursor: pointer;
+  padding: 5px;
+}
+
 .collection-preview {
   display: flex;
   width: 80%;
@@ -6,27 +11,25 @@
 }
 
 .title {
-  font-size: 50px;
-  margin: 25px;
+  font-size: 55px;
+  padding: 25px;
 }
 
 .introduction {
   font-size: inherit;
-  margin: 2em 2em 0 4em;
+  margin: 0 2em;
 }
 
 .arrow-down {
   font-size: 6em;
-  margin-left: 3rem;
+  margin-left: 1rem;
   display: inline-block;
   transform: rotate(45deg);
+  cursor: pointer;
 }
 
 .collections {
   font-size: 40px;
-}
-
-.collections {
   justify-self: end;
   margin-right: 30px;
 }
@@ -46,8 +49,37 @@
 @media screen and (min-width: 767px) {
   .collection-preview {
     display: flex;
-    width: 50%;
+    width: 45%;
     height: auto;
     cursor: pointer;
+  }
+
+  .title {
+    font-size: 85px;
+  }
+
+  .introduction {
+    font-size: 35px;
+  }
+
+  .collections {
+    font-size: 60px;
+  }
+
+  .img-2 {
+    width: 35%;
+  }
+
+  .collection-1,
+  .collection-2 {
+    position: relative;
+  }
+
+  .collection-2 {
+    top: -150px;
+  }
+
+  .arrow-down {
+    margin-left: 3rem;
   }
 }

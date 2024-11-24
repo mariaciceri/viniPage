@@ -27,23 +27,21 @@ export default function HomePage() {
       <h2 id="collections" className="collections">
         Collections
       </h2>
-      <div className="collection-1">
+      <div className="collection-1" onClick={() => handleImageClick(1)}>
         <img
           src="/images/relaxing.jpeg"
           alt="Relaxing bunny"
-          className="collection-preview"
-          onClick={() => handleImageClick(1)}
+          className="collection-preview img-1"
         />
         <h3>Saida</h3>
       </div>
-      <div className="collection-2">
+      <div className="collection-2" onClick={() => handleImageClick(2)}>
         <img
           src="/images/midsommar.jpeg"
           alt="Midsommar bunny"
-          className="collection-preview"
-          onClick={() => handleImageClick(2)}
+          className="collection-preview img-2"
         />
-        <h3>Collection 3</h3>
+        <h3>Collection 2</h3>
       </div>
     </div>
   );
