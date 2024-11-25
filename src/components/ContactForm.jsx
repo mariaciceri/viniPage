@@ -19,7 +19,7 @@ export default function ContactForm() {
           />
         </div>
 
-        <form name="contact" method="POST" data-netlify="true" netlify>
+        <form name="contact" method="POST" data-netlify="true">
           {/* Hidden input for Netlify form processing */}
           <input type="hidden" name="form-name" value="contact" />
 
