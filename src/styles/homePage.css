@@ -72,10 +72,14 @@ h3 {
 
   .collection-1,
   .collection-2 {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns items to the end horizontally */
   }
 
   .collection-2 {
+    align-items: flex-start; /* Aligns items to the start */
+    position: relative;
     top: -150px;
     left: 100px;
   }
