@@ -29,21 +29,27 @@ h3 {
 }
 
 .collections {
+  display: flex;
+  flex-direction: column;
   font-size: 40px;
-  justify-self: end;
+  align-items: flex-end;
   margin-right: 30px;
 }
 
-.collection-1 {
-  justify-items: end;
+.collection-1,
+.collection-2 {
+  display: flex;
+  flex-direction: column; /* Aligns items to the end horizontally */
   margin: 0 30px;
   padding: 30px 0;
 }
 
+.collection-1 {
+  align-items: flex-end; /* Aligns items to the end horizontally */
+}
+
 .collection-2 {
-  justify-items: start;
-  margin: 0 30px;
-  padding: 30px 0;
+  align-items: flex-start; /* Aligns items to the start */
 }
 
 @media screen and (min-width: 767px) {
