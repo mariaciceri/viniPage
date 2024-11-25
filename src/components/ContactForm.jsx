@@ -6,7 +6,7 @@ export default function ContactForm() {
     <div className="contact">
       <div className="contact-info">
         <h1>Contact</h1>
-        <p>WhatsApp: 47 9 9678 0945</p>
+        <p>WhatsApp: +55 47 9 9678 0945</p>
         <h2>or</h2>
       </div>
 
