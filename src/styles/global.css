@@ -59,27 +59,6 @@ h2 {
   white-space: nowrap; /* Prevent text from wrapping */
 }
 
-/* Thank you page */
-.thank-you {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 1em;
-  margin: 20px;
-}
-
-.thank-you a {
-  text-decoration: none;
-  color: #333;
-}
-
-.thank-you img {
-  width: 80%;
-  max-width: 200px;
-}
-
 @media screen and (min-width: 767px) {
   .content {
     max-width: 75vw;
