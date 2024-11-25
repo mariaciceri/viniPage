@@ -16,8 +16,19 @@ export default function Footer() {
       <footer className="footer mt-auto py-3 bg-body-tertiary">
         <div className="container">
           <span className="text-body-secondary">
-            <p>Instagram</p>
-            <p onClick={handleContactClick}>Contact Me</p>
+            <p>
+              <a
+                href="https://www.instagram.com/vini.fernandes_art/"
+                className="instagram"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </p>
+            <p onClick={handleContactClick} className="contact-me">
+              Contact Me
+            </p>
             <p>2024 Vini</p>
             <p className="created">&copy;By Maria Ciceri</p>
           </span>
