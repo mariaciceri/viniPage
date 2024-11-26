@@ -73,7 +73,7 @@ h3 {
   }
 
   .img-2 {
-    width: 35%;
+    width: 90%;
   }
 
   .collection-1,
@@ -88,6 +88,7 @@ h3 {
     position: relative;
     top: -150px;
     left: 100px;
+    width: 40%;
   }
 
   .arrow-down {
