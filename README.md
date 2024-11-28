@@ -1,6 +1,6 @@
 # Vini Fernandes Artist
 
-- This webpage is a showcase for the Brazilian painter Vinicius Fernandes.
+- This webpage is a showcase for the Brazilian painter Vinicius Fernandes and it can be accessed [here](https://vini-artist.netlify.app/).
 - It displays a sample of his collections.
 
 ## Features
