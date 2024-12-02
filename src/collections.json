@@ -17,10 +17,13 @@
   },
   {
     "id": 2,
-    "title": "Collection 2",
+    "title": "Collection Bas-relief",
     "imagePaths": [
-        "/images/collection1/vini-saida27.jpeg",
-        "/images/collection1/vini-saida4.jpeg"
+        "/images/collection2/col-2-1.webp",
+        "/images/collection2/col-2-2.webp",
+        "/images/collection2/col-2-3.webp",
+        "/images/collection2/col-2-4.webp",
+        "/images/collection2/col-2-5.webp"
     ]
   }
 ]

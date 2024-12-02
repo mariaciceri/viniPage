@@ -38,12 +38,12 @@ export default function HomePage() {
       </div>
       <div className="collection-2">
         <img
-          src="/images/collection1/vini-saida.jpeg"
-          alt="Painting"
+          src="/images/collection2/col-2-2.webp"
+          alt="Bas-relief house painting"
           className="collection-preview img-2"
           onClick={() => handleImageClick(2)}
         />
-        <h3 onClick={() => handleImageClick(2)}>Collection 2</h3>
+        <h3 onClick={() => handleImageClick(2)}>Bas-relief</h3>
       </div>
     </div>
   );

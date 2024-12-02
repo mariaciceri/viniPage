@@ -46,6 +46,15 @@ export default function ContactForm() {
             />
           </div>
           <div className="form-items">
+            <input
+              type="number"
+              className="input-items"
+              name="WhatsApp"
+              placeholder="Phone number"
+              required
+            />
+          </div>
+          <div className="form-items">
             <textarea
               className="input-items text-area"
               name="message"
