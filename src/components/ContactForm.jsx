@@ -49,7 +49,7 @@ export default function ContactForm() {
             <input
               type="tel"
               className="input-items"
-              name="WhatsApp"
+              name="phone"
               placeholder="Phone number"
               pattern="[+0-9\s()-]*"
               required
