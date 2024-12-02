@@ -47,10 +47,11 @@ export default function ContactForm() {
           </div>
           <div className="form-items">
             <input
-              type="number"
+              type="tel"
               className="input-items"
               name="WhatsApp"
               placeholder="Phone number"
+              pattern="[+0-9\s()-]*"
               required
             />
           </div>
